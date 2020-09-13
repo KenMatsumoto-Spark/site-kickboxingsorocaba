@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/fadad508ae.js" crossorigin="anonymous"></script>
+  <!-- favicon -->
+  <link rel="icon" href="images/favicon.ico">
+  <title>KickBoxing Sorocaba</title>
+</head>
+
+<body>
+  <!-- navbar -->
+      <nav class="navbar navbar-scroll navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="index.html"><img class="img-brand" src="images/LSKB logo.png" alt=""></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav">
+            <h1 class="navbar-text">LIGA SOROCABANA DE KICKBOXING</h1>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li><a href="index.html" class="button-sep btn btn-outline-warning waves-effect"><span>Inicio</span></a></li>
+            <li><a href="transparencia.html" class="button-sep btn btn-outline-warning waves-effect"><span>Transparência</span></a></li>
+            <li><a href="contato.html" class="button-sep btn btn-outline-warning waves-effect active"><span>Contato</span></a></li>
+          </ul>
+      </nav>
+
+
+  <div class="contato">
+    <h1>Contato</h1>
+    <h3>Entre em contato pelo e-mail, telefone ou através das redes sociais</h3>
+
+    <a target="_blank" href="https://www.facebook.com/ligasorocabanadekickboxing" title=""><i class="fab fa-facebook-square img-redes-contato mr-5"></i></a>
+    <a target="_blank" href="" title=""><i class="fab fa-instagram-square img-redes-contato"></i></a>
+
+    <p><a class='email' title="Enviar Email" href="w_m_fernandes@hotmail.com">
+    <i class="far fa-envelope fa-contato"></i> </span> w_m_fernandes@hotmail.com</p>
+    </a>
+    <p><i class="fas fa-phone-alt"></i> (15) 99102-1145</p>
+    <div class="map">
+      <h3>Nosso endereço</h3>
+      <p>rua da penha, 823 2° andar 18010-080 Sorocaba, SP, Brazil</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d12307.723426903493!2d-47.51508727353581!3d-23.492616726278126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-23.4903713!2d-47.5104526!5e0!3m2!1sen!2sbr!4v1600034997859!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <p class="footer-text">© 2020 por Liga Sorocabana de Kickboxing</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+  $(window).scroll(function() {
+if ($(document).scrollTop() > 0) {
+  $('nav').addClass('shrink');
+  $('nav a img').addClass('shrink-logo');
+  $('nav a img').removeClass('img-brand');
+} else {
+  $('nav').removeClass('shrink');
+  $('nav a img').removeClass('shrink-logo');
+  $('nav a img').addClass('img-brand');
+}
+});
+  </script>
+</body>
+
+</html>

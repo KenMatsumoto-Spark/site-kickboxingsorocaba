@@ -1,0 +1,147 @@
+		
+		
+	<html>
+	<head>
+		<link  rel="stylesheet" type="text/css">
+		<!--<script language="JavaScript" src="http://www.receita.fazenda.gov.br/js/Start.js" type="text/javascript"></script>-->
+	
+		<title>Certidão Internet</title>
+		<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<meta HTTP-EQUIV="Sistema" CONTENT="Certidão Internet">
+		<meta HTTP-EQUIV="Versão" CONTENT="2.0.0">
+		<meta HTTP-EQUIV="Autor" CONTENT="Projeto ATCON">
+		<script language="javascript">
+		
+		
+
+		function ajuda() {
+			var msgWindow;
+		    
+			msgWindow=window.open('','','toolbar=yes,menubar=yes,resizable=no,width=800,height=600,dependent=yes,scrollbars=yes,left=0,top=0');
+			
+			msgWindow.document.clear();
+			msgWindow.document.write ("<HTML><BODY>")
+			
+			msgWindow.document.write ("<div align='center'>")
+			
+			msgWindow.document.write (document.getElementById("PRINCIPAL").innerHTML);
+			
+			msgWindow.document.write ("</div>")
+			
+			msgWindow.document.write ("</HTML></BODY>")
+			msgWindow.document.close();
+		}
+		
+		</script>
+		
+	</head>
+	
+	<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="javascript: window.history.forward();">
+	<script type="text/javascript" src="//www.receita.fazenda.gov.br/barra-governo/barra-governo.js"></script>
+			<!-- Certidão  -->
+			<table bgcolor="#FFFFFF" width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="11">
+						<table width="11" border="0" cellpadding="0" cellspacing="0">
+							<tr><td bgcolor="#b20000"><img src="images/pixel.gif" width="1" height="2" border="0"></td></tr>	
+							<tr><td><img src="images/pixel.gif" width="1" height="2" border="0"></td></tr>	
+							<tr><td bgcolor="#ecbfbf"><img src="images/pixel.gif" width="1" height="11" border="0"></td></tr>	
+							<tr><td><img src="images/pixel.gif" width="1" height="2" border="0"></td></tr>	
+							<tr><td bgcolor="#24316f"><img src="images/pixel.gif" width="1" height="29" border="0"></td></tr>	
+							<tr><td><img src="images/pixel.gif" width="1" height="2" border="0"></td></tr>	
+							<tr><td bgcolor="#c8cbdb"><img src="images/pixel.gif" width="1" height="11" border="0"></td></tr>	
+							<tr><td><img src="images/pixel.gif" width="1" height="4" border="0"></td></tr>	
+							<tr><td bgcolor="#24316f"><img src="images/pixel.gif" width="1" height="1" border="0"></td></tr>	
+						</table>
+					</td>
+					<td width="562">
+						<table width="562" border="0" cellpadding="0" cellspacing="0">
+							<tr><td bgcolor="#b20000"><img src="images/pixel.gif" width="1" height="1" border="0"></td></tr>	
+							<tr><td><a title="Clique aqui para voltar à página inicial" href="/Default.asp"><img src="images/topobarra.gif" width="562" height="63" border="0"></a></td></tr>
+						</table>		
+					</td>
+					<td>
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr><td bgcolor="#b20000"><img src="images/pixel.gif" width="1" height="2" border="0"></td></tr>	
+							<tr><td><img src="images/pixel.gif" width="1" height="2" border="0"></td></tr>	
+							<tr><td bgcolor="#ecbfbf"><img src="images/pixel.gif" width="1" height="11" border="0"></td></tr>	
+							<tr><td><img src="images/pixel.gif" width="1" height="2" border="0"></td></tr>	
+							<tr><td bgcolor="#24316f"><img src="images/pixel.gif" width="1" height="29" border="0"></td></tr>	
+							<tr><td><img src="images/pixel.gif" width="1" height="2" border="0"></td></tr>	
+							<tr><td bgcolor="#c8cbdb"><img src="images/pixel.gif" width="1" height="11" border="0"></td></tr>	
+							<tr><td><img src="images/pixel.gif" width="1" height="4" border="0"></td></tr>	
+							<tr><td bgcolor="#24316f"><img src="images/pixel.gif" width="1" height="1" border="0"></td></tr>	
+						</table>
+					</td>
+				</tr>
+     		</table>
+
+<!-- Parte fixa de todas as páginas (não alterar) - FIM -->
+<br><br>
+
+<div style="margin-left:0px;" align="center" ID="PRINCIPAL">
+
+			<table border="0" width=600 cellpadding=0 cellspacing=0>
+		<tr>                
+            <td style="width:90px"><img border="0" src="images/armasbra.gif" WIDTH="81" HEIGHT="85" align=left></td>
+            <td style="width:550px">
+                <div style="font-weight: bold;"><FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 'Arial'">MINISTÉRIO DA FAZENDA</FONT></div>
+                <div style="font-weight: bold;"><FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 'Arial'">Secretaria da Receita Federal do Brasil</FONT></div>
+                <div style="font-weight: bold;"><FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 'Arial'">Procuradoria-Geral da Fazenda Nacional</FONT></div>            
+            </td>
+        </tr>     
+	</table>
+	<table border="0" width=600 height=62 cellpadding=0 cellspacing=0>
+		<tr><td align=center>
+			<FONT style="FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: 'Arial'">CERTIDÃO NEGATIVA DE DÉBITOS RELATIVOS AOS TRIBUTOS FEDERAIS E À DÍVIDA ATIVA DA UNIÃO</FONT><BR>
+		</td></tr>
+	</table>
+	
+	<table border="0" width=600 cellpadding=0 cellspacing=0>
+		<tr><td valign="top" width="05%"><p><FONT style="FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">Nome:&nbsp;</FONT></p></td>
+            <td width="95%"><FONT style="FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">LIGA SOROCABANA KICK BOXING E ARTE MARCIAL E ESPORTE DE CONTATO                                                                                       </FONT></td>
+	    </tr>
+	</table>
+
+	<table border="0" width=600 cellpadding=0 cellspacing=0>
+		<tr>
+			<td>
+				<P><FONT style="FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">CNPJ:&nbsp;13.156.767/0001-56 </FONT></P>
+				<P align="justify">
+					<FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">Ressalvado o direito de a Fazenda Nacional cobrar e inscrever quaisquer dívidas de responsabilidade do sujeito passivo acima identificado que vierem a ser apuradas, é certificado que não constam pendências em seu nome, relativas a créditos tributários administrados pela Secretaria da Receita Federal do Brasil (RFB) e a inscrições em Dívida Ativa da União (DAU) junto à Procuradoria-Geral da Fazenda Nacional (PGFN).</FONT>
+				</P>
+				<P align="justify">
+					<FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">Esta certidão é válida para o estabelecimento matriz e suas filiais e, no caso de ente federativo, para todos os órgãos e fundos públicos da administração direta a ele vinculados. Refere-se à situação do sujeito passivo no âmbito da RFB e da PGFN e abrange inclusive as contribuições sociais previstas nas alíneas 'a' a 'd' do parágrafo único do art. 11 da Lei n&ordm; 8.212, de 24 de julho de 1991.</FONT>
+				</P>
+				<P align="justify" style="line-height: 100%; margin-top: 0; margin-bottom: 0">
+					<FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">A aceitação desta certidão está condicionada à verificação de sua autenticidade na Internet, nos endereços&nbsp;&lt;http://rfb.gov.br&gt;&nbsp;ou&nbsp;&lt;http://www.pgfn.gov.br&gt;.</FONT>
+				<P>
+				<P align="justify">
+					<FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">Certidão emitida gratuitamente com base na Portaria Conjunta RFB/PGFN n&ordm; 1.751, de 2/10/2014.</FONT><BR>
+					<FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">Emitida às 11:05:53 do dia 12/09/2020&nbsp;&lt;hora e data de Brasília&gt;.</FONT><BR>
+					<FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">Válida até 11/03/2021.</FONT><BR>
+					<FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">Código de controle da certidão: <B>128D.D9CB.0C70.A837</B></FONT><BR>
+					<FONT style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial">Qualquer rasura ou emenda invalidará este documento.</FONT>
+				</P>
+			</td>
+		</tr>
+	</table>		
+</div>		
+<div style="margin-left:0px;" align="center">
+		<!--Código do link de impressão-->
+		<table border="0" width="555">
+			<tr>
+				<td width="50%" align="center">
+					<font face="arial" size="2"><a href="InformaNICertidao.asp?tipo=1">Nova Consulta</a>&nbsp;
+				</td>
+				<td width="50%" align="center">
+					<a href="javascript:ajuda()">
+					<img src="images/printer.gif" alt="Preparar Página para Impressão" border="0" hspace="3" WIDTH="111" HEIGHT="30">
+					</a>
+				</td>
+			</tr>
+		</table>
+</div>		
+</body>
+</html>
+

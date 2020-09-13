@@ -1,19 +1,32 @@
-/*===============specifics==============*/
+/*===============general==============*/
 body{
-  background-color: black;
+  background-color: white;
   font-family: 'Merriweather', serif;
+  color: #425F84;
+
 }
 
 h1{
   font-family: 'Montserrat', serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  color: #425F84;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 p{
   font-family: 'Merriweather', serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 h2{
@@ -22,6 +35,24 @@ h2{
   font-size: 3rem;
   color: #425F84;
 }
+
+h3{
+  font-size: 1.5rem;
+  color: #425F84;
+}
+
+a{
+    font-size: 1.5rem;
+}
+
+.mbt-2{
+  margin: 1% 0;
+}
+
+.pd-3{
+  padding-top: 3%;
+}
+/*===============specifics==============*/
 
 .slide-text{
   text-align: center;
@@ -50,13 +81,41 @@ h2{
   z-index: 1;
 }
 
+.navbar-scroll{
+  background-color: black;
+}
+
 .navbar-brand{
   padding-top: 0;
+}
+
+.navbar-text{
+  color: white;
+margin-top: 10px;
+}
+
+nav.navbar.shrink {
+  max-height: 55px;
+}
+
+nav a img.shrink-logo{
+  height: 45px;
 }
 
 .img-brand{
   height: 100px;
 }
+
+nav.navbar{
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+nav{
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
 
 .button-sep{
   margin-right: 20px;
@@ -74,6 +133,7 @@ h2{
 /**/
 .title{
   font-size: 3rem;
+  color: white;
 }
 
 .carousel{
@@ -101,21 +161,26 @@ h2{
 
 /*redes sociais e contato*/
 
-.redes-sociais{
-  padding-top: 3%;
-  padding-bottom: 3%;
-  text-align: center;
-  background-color: black;
-  color: white;
-}
 
-.img-redes{
-  color: #425F84;
+.img-redes-nav{
+  z-index: 1;
+  color: black;
   font-size: 4rem;
 }
 
-.img-redes:hover{
-  color: white;
+.img-redes-nav:hover{
+  z-index: 1;
+  color: #425F84;
+}
+
+.img-redes-contato{
+  color: #425F84;
+  font-size: 2.5rem;
+}
+
+.img-redes-contato:hover{
+  z-index: 1;
+  color: black;
 }
 
 .contato{
@@ -133,4 +198,23 @@ h2{
 .email:hover{
   text-decoration: none;
     color: black;
+}
+
+.map{
+  text-align: center;
+}
+
+.transparencias{
+  color: #66BFBF;
+  padding: 0 10% 0 10%;
+}
+
+.footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1% 0 3px;
+}
+.footer-text{
+  font-size: 1rem;
 }
