@@ -46,7 +46,7 @@ a{
 }
 
 .mbt-2{
-  margin: 1% 0;
+  margin: 0.5% 0;
 }
 
 .pd-3{
@@ -91,15 +91,7 @@ a{
 
 .navbar-text{
   color: white;
-margin-top: 10px;
-}
-
-nav.navbar.shrink {
-  max-height: 55px;
-}
-
-nav a img.shrink-logo{
-  height: 45px;
+  margin-top: 10px;
 }
 
 .img-brand{
@@ -107,15 +99,40 @@ nav a img.shrink-logo{
 }
 
 nav.navbar{
-  -webkit-transition: all 2s ease;
-  transition: all 2s ease;
+  min-height: 110px;
 }
 
-nav{
+nav.navbar.shrink {
+  min-height: 75px;
+}
+
+nav a img.shrink-logo{
+  height: 45px;
+}
+
+nav a img{
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
+nav.navbar{
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+
+.nav-item{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
 
 .button-sep{
   margin-right: 20px;
@@ -170,7 +187,7 @@ nav{
 
 .img-redes-nav:hover{
   z-index: 1;
-  color: #425F84;
+  color: white;
 }
 
 .img-redes-contato{
@@ -180,15 +197,20 @@ nav{
 
 .img-redes-contato:hover{
   z-index: 1;
-  color: black;
+  color: white;
 }
 
 .contato{
   padding-top: 3%;
   padding-bottom: 3%;
+  padding: 0 10% 0 10%;
   text-align: center;
   background-color: white;
   color: #425F84;
+}
+
+.contato-text{
+  font-size: 0.9rem;
 }
 
 .email{
@@ -217,4 +239,23 @@ nav{
 }
 .footer-text{
   font-size: 1rem;
+}
+
+@media (max-width: 1000px){
+  .navbar-text{
+    font-size: 1rem;
+  }
+
+  .title{
+    font-size: 1.5rem;
+  }
+
+  .content{
+    font-size: 1rem;
+  }
+
+  .img-redes-nav{
+    font-size: 2rem;
+  }
+
 }

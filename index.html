@@ -3,20 +3,37 @@
 
 <head>
   <meta charset="utf-8">
-  <!-- css -->
-  <link rel="stylesheet" href="css/style.css">
+
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/fadad508ae.js" crossorigin="anonymous"></script>
   <!-- favicon -->
   <link rel="icon" href="images/favicon.ico">
-  <title>KickBoxing Sorocaba</title>
+  <title>Liga Sorocabana de KickBoxing</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-scroll navbar-expand-lg sticky-top">
+    <a class="navbar-brand" href="index.html"><img class="img-brand" src="images/LSKB logo.png" alt=""></a>
+    <ul class="navbar-nav">
+      <h1 class="navbar-text">LIGA SOROCABANA DE KICKBOXING</h1>
+    </ul>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="index.html" class="button-sep btn btn-outline-warning waves-effect active"><span>Inicio</span></a></li>
+        <li class="nav-item"><a href="transparencia.html" class="button-sep btn btn-outline-warning waves-effect"><span>Transparência</span></a></li>
+        <li class="nav-item"><a href="contato.html" class="button-sep btn btn-outline-warning waves-effect"><span>Contato</span></a></li>
+      </ul>
+  </nav>
+
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <div class="carousel slide" data-ride="carousel" >
@@ -27,7 +44,7 @@
           <img class="bg-image" src="images/foto4-fit.jpg" alt="">
           <div class="slide-text">
             <h1 class="title"><b>LIGA SOROCABANA DE KICKBOXING</b></h1>
-            <p>
+            <p class='content'>
               A Liga Sorocabana de Kickboxing é uma equipe filiada <br> a CBKB e WAKO e participa de todos os campeonatos oficiais
             </p>
         </div>
@@ -39,7 +56,7 @@
           <img class="bg-image" src="images/foto5-fit.jpg" alt="">
           <div class="slide-text">
             <h1><b></b></h1>
-            <p>
+            <p class='content'>
               Centro de Treinamento Waldir <br>Treinos Terças e Quintas das 19:00 as 21:00<br> e aos Sábados as 11:00. <br>Venha Fazer uma aula experimental
             </p>
           </div>
@@ -59,27 +76,18 @@
 
   </div>
     <!-- navbar -->
-    <div class="nav-box"  style="position: absolute">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand mr-5" href=""><img class="img-brand" src="images/LSKB logo.png" alt=""></a>
-        <a target="_blank" href="https://www.facebook.com/ligasorocabanadekickboxing" title=""><i class="fab fa-facebook-square img-redes-nav mr-5"></i></a>
-        <a target="_blank" href="" title=""><i class="fab fa-instagram-square img-redes-nav"></i></a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ml-auto">
-            <li><a href="index.html" class="button-sep btn btn-outline-warning waves-effect active"><span>Inicio</span></a></li>
-            <li><a href="transparencia.html" class="button-sep btn btn-outline-warning waves-effect"><span>Transparência</span></a></li>
-            <li><a href="contato.html" class="button-sep btn btn-outline-warning waves-effect"><span>Contato</span></a></li>
-          </ul>
-      </nav>
-    </div>
 
 
   <div class="footer">
+
+    <a target="_blank" href="https://www.facebook.com/ligasorocabanadekickboxing" title=""><i class="fab fa-facebook-square img-redes-contato mr-5"></i></a>
+    <a target="_blank" href="https://www.instagram.com/ligasorocabanadekickboxing/" title=""><i class="fab fa-instagram-square img-redes-contato"></i></a>
     <p class="footer-text">© 2020 por Liga Sorocabana de Kickboxing</p>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
